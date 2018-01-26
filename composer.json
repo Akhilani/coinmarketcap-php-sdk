@@ -1,0 +1,26 @@
+{
+  "name": "akhilani/coinmarketcap-php-sdk",
+  "description": "PHP library to make communication with Coinmarket API easy.",
+  "type": "library",
+  "keywords": ["coinmarketcap", "api", "cryptocurrency", "rates"],
+  "homepage": "https://github.com/Akhilani/coinmarketcap-php-sdk",
+  "require": {
+    "php" : ">=5.6.0",
+    "ext-curl" : "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.3"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Akhil Kadangode",
+      "email": "akhil.kadangode@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Akhilani\\Coinmarketcap\\": "src/"
+    }
+  }
+}
